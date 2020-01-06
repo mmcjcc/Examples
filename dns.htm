@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>DNS Tester</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#666699" text="#FFFFFF" link="#CCCCCC" vlink="#CCCCCC" alink="#CCCCCC"background="bk.jpg">
+<a href="index.php"><img src="br.jpg" width="855" height="93" border="0"></a><p></p>
+<hr>
+
+<body>
+<form name="form1" method="post" action="ns.php">
+  <p align="center"><strong>CMS DNS RESPONSE TESTER </strong></p>
+  <hr></p>
+  <p>
+     <strong>Server to Test:</strong>    
+     <input type="text" name="server">
+  </p>
+  <p><strong>How many times to test it?</strong>    
+    <input name="times" type="text" value="">
+</p>
+  <p><strong>Recursive?</strong>    
+    <select name="rec">
+      <option value="y">y</option>
+      <option value="n">n</option>
+      <option value="both">both</option>
+    </select>
+</p>
+  <p><strong>Timeout 
+    <input name="timeout" type="text" value="2">
+</strong></p>
+ <strong>Name to use for recursive or non-recursive query 
+    <input type="text" name="name">
+</strong><br>
+<strong>Leave above field blank for random query </strong>
+<p><strong>Verbose?</strong>    
+    <select name="ver">
+      <option value="y" selected>y</option>
+      <option value="n">n</option>
+    </select>
+<br>
+<strong>If set to &quot;n&quot; a report will be shown without the nslookup output </strong>
+<p>
+    <input type="submit" name="Submit2" value="Submit">
+</p>
+<hr>
+<p>&nbsp;  </p>
+</form>
+</form>
+</body>
+</html>
