@@ -9,6 +9,7 @@ int main(void)
     int pass = 0;
 
     printf("\n Enter the password : \n");
+    //I don't think this is a good idea. 
     gets(buff);
 
     if(strcmp(buff, "thegeekstuff"))
