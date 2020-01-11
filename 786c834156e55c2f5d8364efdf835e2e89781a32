@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9248fd0f_709154bf",
+        "filename": "buffofex.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1017500
+      },
+      "writtenOn": "2020-01-11T02:31:17Z",
+      "side": 1,
+      "message": "true",
+      "revId": "786c834156e55c2f5d8364efdf835e2e89781a32",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
